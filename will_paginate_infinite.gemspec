@@ -4,8 +4,8 @@ require 'will_paginate_infinite/version'
 
 Gem::Specification.new do |s|
   s.name        = 'will_paginate_infinite'
-  s.version     = '0.1.4'
-  s.date        = '2019-04-22'
+  s.version     = '0.1.5'
+  s.date        = '2021-01-25'
   s.summary     = "Will Paginate with infinite scroll"
   s.description = "Will Paginate with infinite scroll"
   s.authors     = ["Adriano Godoy", "Adam Anderson"]
@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
   s.rdoc_options = ['--main', 'README.md', '--charset=UTF-8']
   s.extra_rdoc_files = ['README.md']
 
-  s.add_runtime_dependency "will_paginate", '~> 3.1.0'
+  s.add_runtime_dependency "will_paginate", '>= 3.1.0'
 end
